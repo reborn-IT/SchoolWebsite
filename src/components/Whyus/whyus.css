@@ -1,0 +1,43 @@
+.whyus{
+    position: relative;
+    width: auto;
+    height: 641px;
+    left: 0px;
+    background: #EAE1E7;
+}
+.description1{
+    position: relative;
+    width: 687px;
+    height: 74px;
+    left: 60px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.description2{
+    position: relative;
+    width: 687px;
+    height: 74px;
+    left: 60px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.description3{
+    position: relative;
+    width: 687px;
+    height: 74px;
+    left: 60px;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.whyus-circle{
+    position: absolute;
+    width: 529px;
+    height: 485px;
+    left: 902px;
+    background: blue;
+    border-radius: 50%;
+    top: 50px;
+}

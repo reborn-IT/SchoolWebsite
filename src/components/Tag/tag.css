@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.tag-rectangle{
+    width: auto;
+    background: slategrey;
+    height: 200px;
+
+}
+.circle1{
+    width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%
+}
+
+.circle2{
+    width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%
+}
+
+.circle3{
+    width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%
+}
+
+.circle4{
+    width: 100px;
+  height: 100px;
+  background: black;
+  border-radius: 50%
+}
