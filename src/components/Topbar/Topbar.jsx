@@ -80,9 +80,9 @@ function Topbar(){
                 </Link>
               </li>
             </ul>
-            <div className="top-icon" onClick={handleClick}>
+            {/* <div className="top-icon" onClick={handleClick}>
               <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
-            </div>
+            </div> */}
 
           </div>
         </top>
