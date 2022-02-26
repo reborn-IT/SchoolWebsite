@@ -31,7 +31,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/programs"
+                              to="/about us"
                               activeClassName="active"
                               className="nav-links-about"
                               onClick={click ? handleClick : null}
@@ -42,7 +42,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/features"
+                              to="/branches"
                               activeClassName="active"
                               className="nav-links-branches"
                               onClick={click ? handleClick : null}
@@ -53,7 +53,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/contact"
+                              to="/academics"
                               activeClassName="active"
                               className="nav-links-academics"
                               onClick={click ? handleClick : null}
@@ -64,7 +64,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/contact"
+                              to="/admission"
                               activeClassName="active"
                               className="nav-links-admission"
                               onClick={click ? handleClick : null}
@@ -75,7 +75,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/contact"
+                              to="/alumini"
                               activeClassName="active"
                               className="nav-links-alumini"
                               onClick={click ? handleClick : null}
@@ -86,7 +86,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/contact"
+                              to="/blog"
                               activeClassName="active"
                               className="nav-links-blog"
                               onClick={click ? handleClick : null}
@@ -97,7 +97,7 @@ function Navbar() {
                       <li className="nav-item-results">
                           <Link
                               exact
-                              to="/contact"
+                              to="/results"
                               activeClassName="active"
                               className="nav-links-results"
                               onClick={click ? handleClick : null}

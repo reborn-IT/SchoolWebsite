@@ -1,32 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .whyus{
     position: relative;
     width: auto;
-    height: 641px;
+    height: 500px;
     left: 0px;
     background: #EAE1E7;
+    
+}
+.whyus-text{
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 .description1{
     position: relative;
-    width: 687px;
-    height: 74px;
-    left: 60px;
+    width: 600px;
+    height: 60px;
+    left: 90px;
+    margin-top: 50px;
     background: #FFFFFF;
     border-radius: 50px;
 }
 .description2{
     position: relative;
-    width: 687px;
-    height: 74px;
-    left: 60px;
+    width: 600px;
+    height: 60px;
+    left: 90px;
     margin-top: 50px;
     background: #FFFFFF;
     border-radius: 50px;
 }
 .description3{
     position: relative;
-    width: 687px;
-    height: 74px;
-    left: 60px;
+    width: 600px;
+    height: 60px;
+    left: 90px;
     margin-top: 50px;
     background: #FFFFFF;
     border-radius: 50px;
@@ -34,10 +46,34 @@
 
 .whyus-circle{
     position: absolute;
-    width: 529px;
-    height: 485px;
+    width: 450px;
+    height: 450px;
     left: 902px;
-    background: blue;
+    background: url(../images/2.jpg);
     border-radius: 50%;
-    top: 50px;
+    top: 15px;
+}
+.des-1{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 24px;
+    color: brown;
+}
+.des-2{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 24px;
+    color: brown;
+}
+.des-3{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 24px;
+    color: brown;
 }

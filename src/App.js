@@ -1,13 +1,10 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Divisions from './components/Divisions/Divisions';
+import Home from './components/pages/Home';
+import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import News from './components/News/News';
-import Staff from './components/Staff/Staff';
-import Tag from './components/Tag/Tag';
 import Topbar from './components/Topbar/Topbar';
-import Whyus from './components/Whyus/Whyus';
+import Academics from './components/pages/Academics/Academics';
 
 
 function App() {
@@ -16,12 +13,12 @@ function App() {
       <Router>
         <Topbar />
         <Navbar />
-        <Header />
-        <News />
-        <Tag />
-        <Divisions />
-        <Whyus />
-        <Staff />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/academics" element={<Academics />} /> 
+        </Routes>
+
         <Footer />
       </Router>
     </div>
