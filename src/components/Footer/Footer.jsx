@@ -13,7 +13,9 @@ function Footer(){
                             {/* <img src={logo} height="60" width="100" alt="logo" /> */}
                             <h6>Logo</h6>
                             <p class="text-justify">Description</p>
+                            
                         </div>
+                        
 
                         <div class="col-xs-6 col-md-3">
                             <h6>Quick Links</h6>

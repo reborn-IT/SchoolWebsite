@@ -1,7 +1,7 @@
 import React from "react";
 import "../Divisions/divisions.css";
 import { Col, Row, Container } from "react-bootstrap";
-
+import image1 from "../images/4.jpg";
 
 
 function Divisions(){

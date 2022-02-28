@@ -9,7 +9,7 @@ function Header() {
             <ul>
                 <li>
                     <div class="header-left">
-                            <img src={image1} alt="student" />                 
+                            <img src={image1} alt="student" width="100%"/>                 
                     </div>
                     <div class="header-right"><br />
                         <div class="header-title">Practical Teaching & Social Development</div><br /><br />

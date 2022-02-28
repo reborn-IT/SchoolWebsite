@@ -1,18 +1,19 @@
 import React from "react";
 import "../Blog/blog.css";
-import image from "../images/blog.jpg";
+import image from "../images/blog.png";
+
 
 function Blog() {
     return(
       <>  
       <div className="blog-headimage">
-        <img src={image} alt="blog" />
+        <img src={image} alt="blog" width="100%" height="100%"/>
       </div>
         <div class="blog">
           <div class="blog-container">
             <div class="blog-title">
-              <h2>Latest Blog</h2>
-              <p>recent blogs about art & design</p>
+              <h2>Latest Events</h2>
+              {/* <p>recent blogs about art & design</p> */}
             </div>
             <div class="blog-content">
 

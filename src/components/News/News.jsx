@@ -1,5 +1,6 @@
 import React from "react";
 import "../News/news.css";
+import image1 from "../images/4.jpg";
 
 function News(){
     return(
@@ -14,7 +15,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!--- <img src="images/img1.jpg" alt="">--> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>
@@ -32,7 +33,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!--- <img src="images/img2.jpg" alt="">---> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>
@@ -50,7 +51,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!-- <img src="images/img3.jpg" alt="">----> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>
@@ -70,7 +71,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!---<img src="images/img4.jpg" alt="">---> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>
@@ -88,7 +89,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!--<img src="images/img5.jpg" alt="">----> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>
@@ -106,7 +107,7 @@ function News(){
               <div className="news-card">
                 <div className="news-content">
                   <div className="news-img">
-                    {/* <!--<img src="images/img6.jpeg" alt="">---> */}
+                    <img src={image1} alt="" />
                   </div>
                   <div className="news-details">
                     <div className="name">Covid-19 vaccinations for students</div>

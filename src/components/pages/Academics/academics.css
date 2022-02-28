@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+.academics-headimage{
+  width: auto;
+  height: 400px;
+  
+}
 .ac-heading{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: brown;
     font-size: 30px;
+    padding-left: 30px;
 }
 .ac-description{
     font-family: 'Poppins', sans-serif;
     color: brown;
     font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
 }
 .academics-column {
     float: left;
@@ -42,4 +51,5 @@
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    width: auto;
   }

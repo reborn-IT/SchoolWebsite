@@ -1,17 +1,17 @@
 import React from "react";
 import "../Academics/academics.css";
-// import image1 from "../images/blog.jpg";
+import image from "../../images/academics.jpg";
 
 function Academics() {
     return(
         <>
-        <div className="blog-headimage">
-            {/* <img src={image1} alt="blog" /> */}
+        <div className="academics-headimage">
+            <img src={image} alt="blog" width="100%" height="100%"/>
         </div>
 
         <div className="academics-text">
             <div className="ac-heading">
-                National Curriculam <br />
+                National Curriculam <br /><br />
             </div>
             <div className="ac-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor dolor vel luctus lobortis. 
@@ -71,9 +71,10 @@ function Academics() {
                 
             </div>
 
+            <br /><br />
             <div className="academics-text">
             <div className="ac-heading">
-                National Curriculam <br />
+                National Curriculam <br /> <br />
             </div>
             <div className="ac-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor dolor vel luctus lobortis. 
@@ -133,9 +134,10 @@ function Academics() {
                 
             </div>
 
+            <br /><br />
             <div className="academics-text">
             <div className="ac-heading">
-                National Curriculam <br />
+                National Curriculam <br /><br />
             </div>
             <div className="ac-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempor dolor vel luctus lobortis. 
