@@ -31,7 +31,7 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/about us"
+                              to="/aboutus"
                               activeClassName="active"
                               className="nav-links-about"
                               onClick={click ? handleClick : null}
