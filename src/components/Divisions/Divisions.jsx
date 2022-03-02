@@ -11,7 +11,7 @@ function Divisions(){
             <div class="div-container">
                 <div class="flipper">
                     <div class="front">
-                        <img src="./assets/img1.jpg" alt="img" />
+                        <img src="./assets/img2.jpg" className="division-image" alt="img" />
                         <p class="caption">Nursery</p>
                     </div>
                     <div class="back">
@@ -63,6 +63,76 @@ function Divisions(){
             </div>
         </div>
 
+//         <>
+//         <div className="row">
+//         <div className="col-xs-12 col-sm-6 col-md-3">
+//         <div class="divisions-container">
+//         <div class="divisions-inner-container">
+//             <div class="divisions-front">
+//                 <div class="profile-image">
+                    
+//                 </div>
+//                 <h3>Primary</h3>
+
+//             </div>
+//             <div class="divisions-back">
+//                <h2>Primary</h2>
+//                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo adipisci
+//                    ducimus quam exercitationem temporibus recusandae nemo voluptatum alias inventore!
+//                 </h6>
+            
+//             </div>
+//         </div>
+//     </div>
+//     </div>
+
+//     <div className="col-xs-12 col-sm-6 col-md-3">
+//         <div class="divisions-container">
+//         <div class="divisions-inner-container">
+//             <div class="divisions-front">
+//                 <div class="profile-image">
+                    
+//                 </div>
+//                 <h3>Primary</h3>
+
+//             </div>
+//             <div class="divisions-back">
+//                <h2>Primary</h2>
+//                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo adipisci
+//                    ducimus quam exercitationem temporibus recusandae nemo voluptatum alias inventore!
+//                 </h6>
+            
+//             </div>
+//         </div>
+//     </div>
+//     </div>
+
+//     <div className="col-xs-12 col-sm-6 col-md-3">
+//         <div class="divisions-container">
+//         <div class="divisions-inner-container">
+//             <div class="divisions-front">
+//                 <div class="profile-image">
+                    
+//                 </div>
+//                 <h3>Primary</h3>
+
+//             </div>
+//             <div class="divisions-back">
+//                <h2>Primary</h2>
+//                <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo adipisci
+//                    ducimus quam exercitationem temporibus recusandae nemo voluptatum alias inventore!
+//                 </h6>
+            
+//             </div>
+//         </div>
+//     </div>
+//     </div>
+    
+//     </div>
+
+
+
+// </>
     )
 }
 export default Divisions;

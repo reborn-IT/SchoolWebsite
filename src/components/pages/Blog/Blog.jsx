@@ -1,6 +1,6 @@
 import React from "react";
 import "../Blog/blog.css";
-import image from "../images/blog.png";
+import image from "../../images/blog-1.jpeg";
 
 
 function Blog() {

@@ -14,7 +14,8 @@ function Header() {
                     <div class="header-right"><br />
                         <div class="header-title">Practical Teaching & Social Development</div><br /><br />
                         <div class="header-content">
-                        We aim at success by creating skills necessary for students to enrich and empower in studies and extra curricular activities. 
+                        We aim at success by creating skills necessary for students to enrich and empower in studies and extra 
+                        curricular activities. 
                         </div>
                     </div>
 
