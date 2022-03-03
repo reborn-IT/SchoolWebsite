@@ -7,6 +7,7 @@ import Topbar from './components/Topbar/Topbar';
 import Academics from './components/pages/Academics/Academics';
 import Branches from './components/pages/Branches/Branches';
 import Alumni from './components/pages/Alumni/Alumni';
+import Alumniregistration from './components/pages/Alumniregistration/Alumniregistration';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/academics" element={<Academics />} /> 
           <Route path="/branches" element={<Branches />} />
           <Route path="/alumni" element={<Alumni />} />
+          <Route path="/alumniregistration" element={<Alumniregistration />} />
         </Routes>
 
         <Footer />

@@ -75,12 +75,12 @@ function Navbar() {
                       <li className="nav-item">
                           <Link
                               exact
-                              to="/alumini"
+                              to="/alumni"
                               activeClassName="active"
-                              className="nav-links-alumini"
+                              className="nav-links-alumni"
                               onClick={click ? handleClick : null}
                           >
-                              Alumini
+                              Alumni
                           </Link>
                       </li>
                       <li className="nav-item">

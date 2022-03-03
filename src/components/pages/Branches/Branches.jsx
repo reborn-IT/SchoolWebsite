@@ -14,8 +14,7 @@ function Branches(){
             <h2>Branch Name</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, 
-                magna sed pulvinar ultricies, purus lectus males
-                uada libero, sit amet commodo magna eros quis urna. 
+                magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. 
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, 
                 magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. 
             </p>

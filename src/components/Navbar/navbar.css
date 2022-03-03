@@ -55,7 +55,7 @@
   margin-right: 2rem;
 }
 
-.nav-links-home, .nav-links-about, .nav-links-branches, .nav-links-academics, .nav-links-admission, .nav-links-alumini, .nav-links-blog, .nav-links-results{
+.nav-links-home, .nav-links-about, .nav-links-branches, .nav-links-academics, .nav-links-admission, .nav-links-alumni, .nav-links-blog, .nav-links-results{
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
@@ -78,7 +78,7 @@
 .nav-links-admission{
     color: #890810;
 }
-.nav-links-alumini{
+.nav-links-alumni{
     color: #890810;
 }
 .nav-links-blog{

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.alumni-headimage{
+  width: auto;
+  height: 300px;
+  
+}
+.alumni-heading{
+    color: brown;
+    font-weight: 800;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.alumni-image
+{
+	/* max-width: 100%; */
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.alumni-description
+{	
+	margin: auto;
+	max-width: 1000px;
+}
+.alumni-text{
+    color: brown;
+    size: 24px;
+    text-align: justify;
+
+}
+
+.alumni-members h2{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: brown;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+@media (min-width: 20em)
+{
+	.alumni-description
+	{
+		display: flex;
+		align-items: center;
+	}
+	.alumni-image
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right;
+	}
+	
+	.alumni-description::after
+	{
+		content: "";
+  	display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 30em)
+{
+	.alumni-image
+	{
+		flex-shrink: 0;
+	}
+}
+
+.member-text h3 {
+    color: brown;
+    font-size: 1.6em;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+.member {
+    line-height: 0;	
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;	
+    transition: linear 0.25s;
+    height: 128px;
+    width: 128px;
+    padding-left: 75px;
+  }
+.member img {
+      border-radius: 50%;
+  }
+
+.btn-register{
+    background-color: rgb(248, 177, 96);
+    border: none;
+    color: brown;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 250px;
+    cursor: pointer;
+    border-radius: 40px;
+    border-color: brown;
+    box-shadow: 0 0 40px 40px rgb(250, 211, 166) inset, 0 0 0 0 rgb(250, 211, 166);
+    transition: all 150ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.btn-register:hover {
+    box-shadow: 0 0 10px 0 brown inset, 0 0 10px 4px brown;
+}
+
