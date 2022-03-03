@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import JsonData from './data/data.json';
 import {About} from './components/Aboutus/aboutus';
 import { Results } from './components/Results/results';
+import { Admissions } from './components/Admission/admission';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/aboutus" element={<About data={landingPageData.Aboutus} />}/>
           <Route path='/results' element={ <Results />}/>
           <Route path="/academics" element={<Academics />} /> 
+          <Route path='/admission' element={ <Admissions data={landingPageData.Admission } />}/>
         </Routes>
 
         <Footer />

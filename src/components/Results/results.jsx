@@ -10,7 +10,7 @@ export const Results =()=>{
 
                  {/* Main Header */}
                  <div>
-       <div className="main" style={{backgroundImage:'url("img/aboutus/results.png")'}}>
+       <div className="main" style={{backgroundImage:'url("img/aboutus/admin.jpg")'}}>
             <div className="filterBlur mainTxt">Results</div>
            {/* <img src={props.data ? props.data.mainimage:"Loading...."} alt="" /> */} 
           

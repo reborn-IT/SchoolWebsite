@@ -57,13 +57,15 @@ export const About=(props)=>{
 
 
        {/* Description */}
-        <div className="container">
+        <div className="blueDiv">
+          <div className='container'>
        <div className="description row">
-           <div className="col sm-6">
+           <div className="col sm-6 left">
                <div className="descriptionTxt">We offer a high quality blend of co-curricular activities, sports and academics</div>
                <div className="jointodayBTN"><button type="button" class="btn btn-primary btn-lg">Join Today</button></div>
            </div>
            <div className="col sm-6 PicDiv"><img className="Photo" src={props.data ? props.data.description:"Loading..."} alt="Description Image" /></div>
+       </div>
        </div>
        </div>
 

@@ -10,7 +10,7 @@
   }
 
   .main{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-size:cover;
     text-align: center;
     width: 100%;
@@ -18,7 +18,7 @@
     /* margin-top: 5%; */
     background-repeat: no-repeat;
     justify-content: center;
-    background-image: url("../images/aboutus.jpg");
+    background-image: url("../images/admin.jpg");
   }
 
 
@@ -42,13 +42,16 @@
   }
 
   #about .classvision{
-    background: #f5deb3;
+    /* background-image: linear-gradient(to right, #f5deb3 5%, #890810); */
+    /* backdrop-filter: blur(10px); */
+    background-color: #f5deb3;
     width: 100%;
     height: 235px;
   }
 
   #about .classmission{
-    background: #f5deb3;
+    /* background-image: linear-gradient(to left, #f5deb3 5%, #890810); */
+    background-color: #f5deb3;
     width: 100%;
     height: 235px;
   }
@@ -152,9 +155,8 @@
 
 .jointodayBTN{
   background: transparent;
-border: 2px solid #fff;
-margin-right: 20%;
-margin-top: 3%;
+  margin-right: 20%;
+  margin-top: 3%;
 }
 
 #about .principalPhoto{
@@ -220,7 +222,15 @@ margin-top: 3%;
 @media only screen and (max-width: 767px){
 .PicDiv{
 display:none;
+border: none;
 }
 
 }
 
+.blueDiv{
+  background: #f5deb3;
+}
+
+.left{
+  margin-left: 5%;
+}

@@ -9,6 +9,17 @@
     "description":"img/aboutus/description.png",
     "faq":"img/aboutus/faq.png"
 
+},
+
+"Admission":{
+    "adminMainImage":"img/admission/admission.jpg",
+    "nursaryImage":"img/admission/admission2.png",
+    "primaryImage":"img/admission/admission2.png",
+    "secondaryImage":"img/admission/admission2.png",
+    "formImage":"img/admission/admission.png",
+    "NursaryText":"Lorem ipsum dolor sit amet consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posueremagna sed pulvinar ultricies purus lectus malesuada liberosit amet commodo magna eros quis urna.Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "PrimaryText":"Lorem ipsum dolor sit amet consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posueremagna sed pulvinar ultricies purus lectus malesuada liberosit amet commodo magna eros quis urna.Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Secondary":"Lorem ipsum dolor sit amet consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posueremagna sed pulvinar ultricies purus lectus malesuada liberosit amet commodo magna eros quis urna.Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus."
 }
 
 }
