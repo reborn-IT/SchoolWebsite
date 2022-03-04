@@ -1,0 +1,37 @@
+#results {
+    font-family: 'Poppins', sans-serif;
+}
+
+#results .form{
+    text-align: center;
+    font-size: 120%;
+    background: #B1D0DA;
+    padding: 5%;
+    
+   }
+   
+   .floatRight{
+     float: right;
+   }
+   
+   #results [type="text"]{
+   background: #FEF9F9;
+   border-radius: 40px;
+   width: 50%;
+   padding: 1%;
+   margin-bottom: 5%;
+   }
+
+   #result .indextTxt{
+       text-align: center !important;
+   }
+
+   #results button{
+    width: 55%;
+    height: 150%;
+    left: 210px;
+    top: 1067px;
+    background: #1385AA;
+    color: white;
+    }
+   
