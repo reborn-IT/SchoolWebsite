@@ -1,80 +1,79 @@
-/* body {
-    background: #44c4e7 url("https://38.media.tumblr.com/d23deac40b06633b79520a8552f40b94/tumblr_nb1uhrRrge1st5lhmo1_1280.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: "Roboto";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  body::before {
-    z-index: -1;
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #44c4e7;
-    
-    background: rgba(68,196,231, 0.8);
-    width: 100%;
-    height: 100%;
-  } */
-  .form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: #fff;
-    width: 285px;
-    margin: -140px 0 0 -182px;
-    padding: 40px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-  }
-  .form h2 {
-    margin: 0 0 20px;
-    line-height: 1;
-    color: #44c4e7;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .form input {
-    outline: none;
-    display: block;
-    width: 100%;
-    margin: 0 0 20px;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    color: #ccc;
-    font-family: "Roboto";
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-wieght: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transition: 0.2s linear;
-    -moz-transition: 0.2s linear;
-    -ms-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
-    transition: 0.2s linear;
-  }
-  .form input:focus {
-    color: #333;
-    border: 1px solid #44c4e7;
-  }
-  .form button {
-    cursor: pointer;
-    background: #44c4e7;
-    width: 100%;
-    padding: 10px 15px;
-    border: 0;
-    color: #fff;
-    font-family: "Roboto";
-    font-size: 14px;
-    font-weight: 400;
-  
-  }
-  .form button:hover {
-    background: #369cb8;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+.form-body {
+  /* height: 100vh; */
+  background-image: linear-gradient(130deg, #fefefe, #ededed);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.container-form {
+  background-color: white;
+  display: flex;
+  width: 800px;
+  border: 1px solid brown;
+  box-shadow: 8px 8px 0 0 brown;
+}
+
+.left-form, .right {
+  width: 600px;
+  height: 700px;
+}
+
+.left-form {
+  padding: 40px 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.accept {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.accept input {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.form-image {
+  height: 500px;
+  padding: 40px 60px;
+}
+
+.left h1 {
+  margin-bottom: 10px;
+}
+
+label {
+  margin: 15px 0 5px;
+  font-size: 0.9rem;
+}
+
+.left p {
+  margin-bottom: 15px;
+}
+
+input {
+  height: 35px;
+}
+
+.accept p {
+  margin: 0;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  background-color: brown;
+  color: white;
+  font-size:1rem;
+  margin-top: 30px;
+}

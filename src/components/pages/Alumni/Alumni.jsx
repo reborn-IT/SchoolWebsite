@@ -29,7 +29,7 @@ function Alumni(){
                 
             </div>
             
-            <Link to ="/alumniregistration"> <button className="btn-register">For Registrations</button> </Link>
+            <Link to ="/alumniregistration" className="reg-link"> <button className="btn-register">For Registrations</button> </Link>
             
             <br /><br />
 

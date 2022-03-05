@@ -116,4 +116,6 @@
 .btn-register:hover {
     box-shadow: 0 0 10px 0 brown inset, 0 0 10px 4px brown;
 }
-
+.reg-link{
+  text-decoration: none;
+}
